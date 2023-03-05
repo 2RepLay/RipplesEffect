@@ -10,6 +10,8 @@ import SpriteKit
 
 struct WaterEffect<Content: View>: View {
 	
+	@Environment(\.displayScale) var displayScale
+	
 	@State private var scene = WaterScene()
 	
 	var speed: Double
@@ -20,6 +22,7 @@ struct WaterEffect<Content: View>: View {
 	
     var body: some View {
         let renderer = ImageRenderer(content: content())
+		renderer.scale = displayScale
 		let image = renderer.uiImage
 		let size = image?.size ?? .zero
 		

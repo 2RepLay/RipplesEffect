@@ -11,6 +11,8 @@
 		1106893829B4C6D90030A4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106893729B4C6D90030A4F0 /* ContentView.swift */; };
 		1106893A29B4C6DA0030A4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1106893929B4C6DA0030A4F0 /* Assets.xcassets */; };
 		1106893D29B4C6DA0030A4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1106893C29B4C6DA0030A4F0 /* Preview Assets.xcassets */; };
+		1106894429B4C7460030A4F0 /* WaterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106894329B4C7460030A4F0 /* WaterScene.swift */; };
+		1106894629B4CAAA0030A4F0 /* WaterEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106894529B4CAAA0030A4F0 /* WaterEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1106893729B4C6D90030A4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1106893929B4C6DA0030A4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1106893C29B4C6DA0030A4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1106894329B4C7460030A4F0 /* WaterScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterScene.swift; sourceTree = "<group>"; };
+		1106894529B4CAAA0030A4F0 /* WaterEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				1106893729B4C6D90030A4F0 /* ContentView.swift */,
 				1106893929B4C6DA0030A4F0 /* Assets.xcassets */,
 				1106893B29B4C6DA0030A4F0 /* Preview Content */,
+				1106894329B4C7460030A4F0 /* WaterScene.swift */,
+				1106894529B4CAAA0030A4F0 /* WaterEffect.swift */,
 			);
 			path = "Ripples Effect";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1106894629B4CAAA0030A4F0 /* WaterEffect.swift in Sources */,
+				1106894429B4C7460030A4F0 /* WaterScene.swift in Sources */,
 				1106893829B4C6D90030A4F0 /* ContentView.swift in Sources */,
 				1106893629B4C6D90030A4F0 /* Ripples_EffectApp.swift in Sources */,
 			);
